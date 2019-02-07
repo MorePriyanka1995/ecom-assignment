@@ -1,0 +1,14 @@
+create database ecom;
+use ecom;
+create table adminlogin(userid varchar(20) primary key, password varchar(30),email varchar(20),name varchar(20),address varchar(20),mobno varchar(20),usertype varchar(20));
+insert into adminlogin(1,admin,admin@gmail.com,admin,katraj,12345433,admin);
+insert into adminlogin( 2,user,user@gmail.com,user,katraj,12345433,user);
+
+create table product( pid int primary key,pname varchar(30),category varchar(30),price varchar(20),quentity varchar(20));
+ insert into product(1001,Kurtis,Cloths,100,10);
+ insert into product(1002,Bags,Accessories,550,15);
+     
+ 
+  
+  
+ 
